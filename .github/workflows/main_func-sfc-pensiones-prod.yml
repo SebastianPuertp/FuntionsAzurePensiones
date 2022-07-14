@@ -65,6 +65,6 @@ jobs:
           app-name: 'func-sfc-pensiones-prod'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_715F42993FAF47A5B9BF6FB9DD1021BD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_14B228EDDE8241EF8EE25CA3318C24D0 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
